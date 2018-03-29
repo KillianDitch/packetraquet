@@ -13,14 +13,24 @@ Right now, a standard Unix distro *should* be able to run the basic_r@quet.py sc
 
 Usage: 
 sudo ./basic_ra@quet.py
+
 sudo ./basic_r@quet.py -i lo
 
 sudo ./p@cket_r@quet.py 
+
 usage: p@cketr@quet.py [-h] [-i INTERFACE] [-p PCAP] [-v]
+
 Listen to network traffic.
+
 optional arguments:
+
   -h, --help            show this help message and exit
+  
   -i INTERFACE, --interface INTERFACE
+  
                         Network interface on which to sniff traffic.
+                        
   -p PCAP, --pcap PCAP  Pre-captured pcap file.
+  
   -v, --verbose         TODO: Outputs sniffed traffic to stdout.
+  
