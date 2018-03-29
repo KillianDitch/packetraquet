@@ -1,8 +1,8 @@
 # packetraquet
 p@cketr@quet repo
 
-A) This project has more bugs than the Amazon rainforest - those that I know about, I don't know how to fix yet. Those that I don't know about, I can pretend don't exist.
-B) I'm in the process of trimming up sound files to be uploaded.
+A) This project has more bugs than the Amazon rainforest - those that I know about, I don't know how to fix yet. Those that I don't know about, I can pretend don't exist.<br>
+B) I'm in the process of trimming up sound files to be uploaded.<br>
 C) I've no idea what I'm doing when it comes to publishing a tool/code to the Internet.
 
 Description: 
@@ -24,8 +24,8 @@ Listen to network traffic.
 
 optional arguments:
 
--h, --help	show this help message and exit.<p>
--i INTERFACE, --interface INTERFACE	Network interface on which to sniff traffic.<p>
--p PCAP, --pcap PCAP	Pre-captured pcap file.<p>
+-h, --help	show this help message and exit.<br>
+-i INTERFACE, --interface INTERFACE	Network interface on which to sniff traffic.<br>
+-p PCAP, --pcap PCAP	Pre-captured pcap file.<br>
 -v, --verbose	TODO: Outputs sniffed traffic to stdout.
   
