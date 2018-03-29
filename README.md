@@ -24,10 +24,8 @@ Listen to network traffic.
 
 optional arguments:
 
- -h, --help	show this help message and exit.
--i INTERFACE, --interface INTERFACE	Network interface on which to sniff traffic.
-                   
-  
--p PCAP, --pcap PCAP	Pre-captured pcap file.
+-h, --help	show this help message and exit.<p>
+-i INTERFACE, --interface INTERFACE	Network interface on which to sniff traffic.<p>
+-p PCAP, --pcap PCAP	Pre-captured pcap file.<p>
 -v, --verbose	TODO: Outputs sniffed traffic to stdout.
   
