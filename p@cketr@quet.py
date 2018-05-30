@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Imports
 from scapy.all import *
@@ -23,7 +23,7 @@ def prs_arg():
 # Check for the existence of the audio tones and call the creation function if needed.
 def check_wavs():
     if not os.path.exists("tunes"):
-        print "Missing audio files."
+        print("Missing audio files.")
         exit()
         #TODO - check for beeps, if not present, create them. Use a BOOL var to route sounds
 
@@ -92,7 +92,7 @@ def main():
     if prs_arg().pcap:
         sniff(offline=prs_arg().pcap, prn=make_music)
     else:
-        print "Sniffing on interface %s." % prs_arg().interface
+        print("Sniffing on interface %s." % prs_arg().interface)
         sniff(iface=prs_arg().interface, prn=make_music, store=0)
 
 if __name__ == "__main__":
